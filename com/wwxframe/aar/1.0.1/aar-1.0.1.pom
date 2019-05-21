@@ -153,7 +153,7 @@
     </dependency>
     <dependency>
       <groupId>com.wwxframe.trytoseevideo</groupId>
-      <artifactId>aar</artifactId>
+      <artifactId>trytoseevideo</artifactId>
       <version>+</version>
       <type>aar</type>
       <scope>compile</scope>
