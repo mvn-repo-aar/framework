@@ -90,6 +90,12 @@
       <artifactId>ItHqSimpleTabLyout</artifactId>
       <version>v1.4</version>
       <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>com.simple</groupId>
@@ -107,12 +113,6 @@
       <groupId>com.lxj</groupId>
       <artifactId>xpopup</artifactId>
       <version>1.5.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>VirtuousDoctor-test</groupId>
-      <artifactId>TryToSeeVideoJiaoZi</artifactId>
-      <version>unspecified</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -150,6 +150,19 @@
       <artifactId>aspectjrt</artifactId>
       <version>1.8.9</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.wwxframe.trytoseevideo</groupId>
+      <artifactId>aar</artifactId>
+      <version>+</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>com.jakewharton</groupId>
