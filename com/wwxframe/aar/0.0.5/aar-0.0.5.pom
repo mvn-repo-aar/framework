@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wwxframe</groupId>
   <artifactId>aar</artifactId>
-  <version>1.0.7</version>
+  <version>0.0.5</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -26,12 +26,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.mcxiaoke.volley</groupId>
-      <artifactId>library</artifactId>
-      <version>1.0.+</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>support-v4</artifactId>
       <version>26.1.0</version>
@@ -40,7 +34,7 @@
     <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>design</artifactId>
-      <version>27.1.1</version>
+      <version>26.1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -112,7 +106,7 @@
     <dependency>
       <groupId>com.lxj</groupId>
       <artifactId>xpopup</artifactId>
-      <version>1.5.2</version>
+      <version>1.6.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -130,7 +124,7 @@
     <dependency>
       <groupId>com.facebook.fresco</groupId>
       <artifactId>fresco</artifactId>
-      <version>1.9.0</version>
+      <version>1.13.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -152,10 +146,21 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.wwxframe</groupId>
       <artifactId>trytoseevideo</artifactId>
-      <version>+</version>
-      <type>aar</type>
+      <version>0.0.1</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
