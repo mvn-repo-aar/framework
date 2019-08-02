@@ -3,7 +3,7 @@
   <groupId>com.wwxframe</groupId>
   <artifactId>aar</artifactId>
   <versioning>
-    <release>0.1.0</release>
+    <release>0.1.1</release>
     <versions>
       <version>1.0.1</version>
       <version>1.0.2</version>
@@ -31,6 +31,6 @@
       <version>0.1.6</version>
       <version>0.1.7</version>
     </versions>
-    <lastUpdated>20190802191630</lastUpdated>
+    <lastUpdated>20190802193556</lastUpdated>
   </versioning>
 </metadata>
