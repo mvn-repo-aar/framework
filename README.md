@@ -15,3 +15,6 @@ implementation('com.wwxframe:aar:+@aar'){transitive=true}
 
 解决不能调用aar中三方依赖问题(dependencies)
 {transitive=true}
+
+
+
