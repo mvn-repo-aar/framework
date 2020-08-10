@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wwxframe</groupId>
-  <artifactId>unlib_aar</artifactId>
-  <version>0.0.1</version>
+  <artifactId>aar</artifactId>
+  <version>0.2.12</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
